@@ -20,5 +20,6 @@
     "mcp"
   ],
   "icon": "./.claude-plugin/icon.png",
-  "license": "MIT"
+  "license": "MIT",
+  "privacyPolicyUrl": "https://jobs.engdawood.com/privacy"
 }

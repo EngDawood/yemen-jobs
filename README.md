@@ -38,7 +38,27 @@ Example prompts / أمثلة:
 
 ## ChatGPT
 
-See [chatgpt/README.md](chatgpt/README.md). Same MCP server, added as an app (connector).
+ChatGPT has no plugin file. It connects to the same MCP server as an app (connector), with no auth.
+
+| Field | Value |
+|---|---|
+| MCP server URL | `https://jobs.engdawood.com/mcp` |
+| Auth | None (read-only public tools) |
+| Domain verification | `https://jobs.engdawood.com/.well-known/openai-apps-challenge` |
+
+Try it in developer mode: Settings, Apps and Connectors, Advanced, enable Developer mode, create a connector with the URL above. Menu names change, so check OpenAI's current Apps SDK docs.
+
+Listing name: `Yemen Jobs | وظائف اليمن`. Listing description (350 chars):
+
+```
+ابحث عن وظائف اليمن من داخل ChatGPT: وظائف صنعاء وعدن من Yemen HR وEOI وReliefWeb وUNjobnet وQTB Bank وYLDF، منظمات وأمم متحدة وبنوك، ملخصة بالعربية ومحدّثة كل ساعة. Search & track Yemen jobs in ChatGPT: Sanaa and Aden vacancies from Yemen HR, EOI, ReliefWeb, UNjobnet, QTB Bank and YLDF. NGO, UN, and bank jobs with Arabic summaries, updated hourly.
+```
+
+Should call the tool: "What are the latest jobs in Yemen?", "Find accountant jobs at NGOs in Sanaa.", "ابحث لي عن وظائف في عدن.", "Show me the newest ReliefWeb jobs for Yemen.", "Give me job #42 from the Telegram channel.", "How many jobs does each source have?"
+
+Should not call the tool: "Write me a cover letter template.", "What is the weather in Sanaa?", "Find jobs in Canada."
+
+Before submitting: never put `MCP_ADMIN_TOKEN` in a public connector config, since it unlocks admin tools. Submission needs a verified OpenAI organization, and I could not verify the current review requirements, so read OpenAI's app submission guidelines first.
 
 ## MCP server
 
