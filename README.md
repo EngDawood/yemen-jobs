@@ -28,11 +28,7 @@ Telegram channel / قناة تلغرام: [@hr_yemen](https://t.me/hr_yemen)
 /plugin install yemen-jobs@yemen-jobs
 ```
 
-Includes the MCP server and three skills:
-
-- `search-yemen-jobs`: search by keyword, company or source.
-- `daily-yemen-jobs`: daily digest of the newest jobs.
-- `job-application-helper`: how to apply, CV and cover letter tailoring.
+Includes the MCP server and one skill, `yemen-jobs`, that covers three jobs: find (search by keyword, company or source), digest (today's and latest jobs), and apply (how to apply, CV and cover letter tailoring).
 
 Example prompts / أمثلة:
 
