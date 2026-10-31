@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "yemen-jobs": {
+      "type": "http",
+      "url": "https://jobs.engdawood.com/mcp"
+    }
+  }
+}

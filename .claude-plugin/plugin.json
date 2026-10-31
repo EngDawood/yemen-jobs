@@ -1,0 +1,9 @@
+{
+  "name": "yemen-jobs",
+  "version": "1.0.0",
+  "description": "ابحث عن وظائف اليمن من داخل Claude: وظائف صنعاء وعدن من Yemen HR وEOI وReliefWeb وUNjobnet وQTB Bank وYLDF، منظمات وأمم متحدة وبنوك، ملخصة بالعربية ومحدّثة كل ساعة. Search & track Yemen jobs in Claude: Sanaa and Aden vacancies from Yemen HR, EOI, ReliefWeb, UNjobnet, QTB Bank and YLDF. NGO, UN, and bank jobs with Arabic summaries, updated hourly.",
+  "author": { "name": "EngDawood", "url": "https://github.com/EngDawood" },
+  "homepage": "https://jobs.engdawood.com",
+  "repository": "https://github.com/EngDawood/yemen-jobs",
+  "keywords": ["yemen", "jobs", "وظائف", "اليمن", "sanaa", "aden", "ngo", "reliefweb", "mcp"]
+}

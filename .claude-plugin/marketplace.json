@@ -1,0 +1,14 @@
+{
+  "name": "yemen-jobs",
+  "owner": {
+    "name": "EngDawood"
+  },
+  "plugins": [
+    {
+      "name": "yemen-jobs",
+      "source": "./",
+      "description": "Search and track Yemen jobs from Yemen HR, EOI, ReliefWeb, UNjobnet, QTB Bank and YLDF. ابحث عن وظائف اليمن وتابع جديدها."
+    }
+  ],
+  "description": "Yemen jobs plugin for Claude. وظائف اليمن لكلود."
+}
